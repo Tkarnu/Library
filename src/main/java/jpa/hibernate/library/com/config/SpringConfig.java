@@ -25,10 +25,10 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan("ru.alishev.springcourse")
+@ComponentScan("jpa.hibernate.library.com")
 @PropertySource("classpath:hibernate.properties")
 @EnableTransactionManagement
-@EnableJpaRepositories("ru.alishev.springcourse.repositories")
+@EnableJpaRepositories("jpa.hibernate.library.com.repositories")
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
 
